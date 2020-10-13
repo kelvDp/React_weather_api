@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.outter {
+  text-align: center;
+  position: relative;
+}
+
+h4,
+h2 {
+  margin-bottom: 1rem;
+}
+
+.box {
+  background-color: aqua;
+  height: 30rem;
+  width: 50rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: 150%;
+  left: 32%;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.icon {
+  height: 6rem;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search {
+  background-color: aquamarine;
+  height: 8rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: 5rem;
+  left: 36%;
+  padding: 0.5rem;
+}
+
+input {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 1.5rem;
+  height: 2.4rem;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  border: none;
+  height: 2.4rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
